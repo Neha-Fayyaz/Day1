@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Table [
+<!ELEMENT Table (Employee)*>
+<!ELEMENT Employee (ID,Name,Salary,JoiningDate,Position)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Salary (#PCDATA)>
+<!ELEMENT JoiningDate (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+]>
 <Table>
 <Employee>
 <ID>
